@@ -1,0 +1,283 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+@font-face {
+  font-family: myriadPro;
+  src: url(../font/MyriadPro-Regular.ttf);
+}
+
+body{
+    font-family: "Roboto", serif;
+}
+
+header{
+    width: 100%;
+}
+
+nav{
+    width: 100%;
+}
+
+nav .container{
+    padding: 21px 0;
+    border-bottom: 1px solid #FF8C00;
+}
+
+/* hero-bg */
+
+.hero-bg{
+    background-image: url(../img/hero-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* logo */
+
+.logo img{
+    height: 42px;
+}
+
+/* navbar social icon */
+
+.social-icons{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.social-icons .icon{
+    border: 1px solid black;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.nav-right{
+    color: #FF8C00;
+}
+
+/* hero section */
+
+.hero-section{
+
+}
+
+.hero-inner{
+    margin-left: 87px;
+    padding-bottom: 101px;
+}
+
+.hero-inner h1{
+    padding-top: 30px;
+}
+
+.hero-h-welcome{
+    font-family: "Roboto", serif;
+    font-weight: 200;
+    font-size: 100px;
+}
+
+.hero-h-dsport{
+    font-family: myriadPro;
+    font-weight: bold;
+    font-size: 200px;
+}
+
+.hero-h-dsport span{
+    color: #FF8C00;
+}
+
+.hero-inner p{
+    padding-bottom: 20px;
+}
+
+.hero-btn{
+    border: 1px solid black;
+    background-color: transparent;
+    padding: 15px 25px;
+    text-decoration: none;
+    color: black;
+    padding-bottom: 20px;
+}
+
+/* sport section */
+
+.sport-section{
+    position: relative;
+    top: -41px;
+}
+
+.sport-inner-item-odd{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 27px 20px;
+}
+
+.sport-inner-item-even{
+    background-color:#FF8C00;
+    color: white;
+    text-align: center;
+    padding: 27px 20px;
+}
+
+
+/* about section */
+
+.about-section{
+    background-color: #FFFFFF;
+    margin-bottom: 100px;
+}
+
+.about-bg{
+    background-image: url(../img/about-bg.png);
+}
+
+.about-content{
+    padding-top: 261px;
+    padding-bottom: 322px;
+}
+
+.about-content h1{
+    margin-left: 226px;
+    color: white;
+     white-space:nowrap;
+     font-size: 60px;
+}
+
+.about-content h1 span{
+    color: #FF8C00;
+}
+
+.about-content p{
+    padding: 43px 0px;
+    text-align: right;
+    line-height: 42px;
+}
+
+/* package section */
+
+.package-section{
+    margin-bottom: 100px;
+}
+
+.package-section-title h1{
+    margin-bottom: 70px;
+    text-align: center;
+}
+
+.package-section-title h1 span{
+    color: #FF8C00;
+}
+
+.package-section-inner{
+    background-color: #FF8C00;
+    padding: 80px 0px;
+    text-align: center;
+}
+
+.package-item{
+    border-right: 1px solid white;
+}
+
+.package-item h3{
+    color: white;
+    margin-bottom: 30px;
+}
+
+.package-item h2{
+    font-size: 25px;
+}
+
+.package-item h2 span{
+    color: white;
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+
+.package-item p{
+    font-size: 30px;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.package-btn{
+    background-color: white;
+    padding: 15px 25px;
+    text-decoration: none;
+    color: black;
+    padding-bottom: 20px;
+}
+
+.package-middle-btn{
+    background-color: black;
+    padding: 15px 25px;
+    text-decoration: none;
+    color: white;
+    padding-bottom: 20px;
+}
+
+/* gallery section */
+
+
+.gallery-section{
+    margin-bottom: 100px;
+}
+
+.gallery-section img{
+    width: 100%;
+}
+
+.gallery-section-title h1{
+    text-align: center;
+}
+
+.gallery-section-title h1 span{
+    color: #FF8C00;
+}
+
+.gallery-section-title p{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.gallery-inner{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 20px;
+}
+
+
+/* review section */
+
+.review-section{
+    margin-bottom: 100px;
+}
+
+.review-inner{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.review-inner img{
+    width: 70px;
+    margin-bottom: 20px;
+}
+
+.review-inner h3{
+    color: #FF8C00;
+}
+
+.review-inner p{
+    margin-bottom: 20px;
+}
+
+.review-section-title{
+    color: #FF8C00;
+    margin-bottom: 60px;
+}
